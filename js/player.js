@@ -43,11 +43,11 @@ class Player {
         })
     }
 
-    static updatePlayerAtEnd(rank){
-        database.ref("/").update({
-            playerAtEnd : rank
-        })
-    }
+    // static updatePlayerAtEnd(rank){
+    //     database.ref("/").update({
+    //         playerAtEnd : rank
+    //     })
+    // }
 
     // static updatePlayerAtEnd(rank){
     //     database.ref("/").update({
